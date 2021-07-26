@@ -1,0 +1,71 @@
+body {
+  background-color: rgb(250, 250, 250);
+  margin: 0;
+}
+
+.container {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:100px;
+  font-family: 'Poppins', sans-serif;
+  /* font-family: archia; */
+  flex-direction: column;
+}
+
+.text{
+    font-family: archia;
+    font-size:30px;
+    color:#6c757d;
+    font-weight: bold;
+    margin-top:100px;
+}
+
+.lander {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 600px;
+  font-size:150px;
+  background-size: 100%;
+  text-shadow:2px 2px  #a0a0a0;
+  color:#ffffff;
+  /* background:#000000; */
+  background-image: url('./media/curveline.svg');
+}
+
+.worldmap{
+    margin-top:30px;
+    width:100%;
+}
+
+
+
+.typewriter{
+    font-family: archia;
+}
+
+@media only screen and (max-width: 600px) {
+    .lander{
+        width:100%;
+        margin:0;
+        background-size:auto;
+        font-size:50px;
+        
+    }
+
+    .text{
+        margin-left:20px;
+        font-size:20px;
+    }
+
+  }
+
+
+
+@font-face{
+    font-family: 'archia';
+    src:local('archia'), url(./font/font_archia.otf) format('opentype');
+}

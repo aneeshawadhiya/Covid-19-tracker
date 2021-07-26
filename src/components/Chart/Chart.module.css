@@ -1,0 +1,17 @@
+.container{
+    display :table;
+    margin-top:100px;
+    justify-content : center;
+    width : 50%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .container{
+        display:table;
+        margin:20px;
+        margin-top:50px;
+        width:90%;
+    }
+
+}
